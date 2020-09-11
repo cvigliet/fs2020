@@ -10,3 +10,6 @@ output "FloatingIP-3" {
 output "LB-Hostname" {
     value = "http://${ibm_is_lb.lb1.hostname}"
 }
+output "Message" {
+    value = "Thank you very much for your attention"
+}
