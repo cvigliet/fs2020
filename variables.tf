@@ -47,3 +47,11 @@ variable "custom_resource_group" {
   default = "default"
   description = "Name of your resource group"
 }
+
+variable "zone3" {
+  default = "us-south-3"
+}
+
+variable "zone3_cidr" {
+  default = "172.16.3.0/24"
+}
