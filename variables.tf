@@ -42,8 +42,3 @@ variable "profile" {
   default = "cx2-2x4"
   description = "Instance profile to be used for virtual instances"
 }
-
-variable "custom_resource_group" {
-  default = "default"
-  description = "Name of your resource group"
-}
