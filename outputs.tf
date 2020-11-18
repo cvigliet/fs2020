@@ -13,3 +13,4 @@ output "FloatingIP-3" {
 }
 output "Message" {
     value = "Thank you very much for your attention :-)"
+}
