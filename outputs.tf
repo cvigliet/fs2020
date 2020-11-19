@@ -7,3 +7,9 @@ output "FloatingIP-2" {
 output "LB-Hostname" {
     value = "http://${ibm_is_lb.lb1.hostname}"
 }
+output "FloatingIP-3" {
+    value = "${ibm_is_floating_ip.floatingip3.address}"
+}
+output "Message" {
+    value = "Thank you very much for your attention :-)"
+}
